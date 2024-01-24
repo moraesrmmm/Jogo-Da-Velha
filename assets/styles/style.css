@@ -1,0 +1,87 @@
+html{
+    font-size: 62.5%;
+}
+
+body {
+    text-align: center;
+    background-color: rgb(61, 60, 60);
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4rem;
+}
+
+a{
+    color: white;
+}
+
+
+p{
+    font-size: 2rem;
+}
+
+.square {
+    width: 10rem;
+    height: 10rem;
+    background-color: beige;
+    border: 0.1rem solid gray;
+    display: inline-block;
+}
+
+.o {
+    position: relative;
+}
+
+.o::after {
+    position: absolute;
+    content: '\2B55';
+    font-size: 5rem;
+    line-height: 10rem;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.x {
+    position: relative;
+}
+
+.x::after {
+    position: absolute;
+    content: '\2716';
+    font-size: 5rem;
+    line-height: 10rem;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+button{
+    margin: 2rem 0 0 0;
+    width: 12rem;
+    height: 3rem;
+    background-color: beige;
+    font-size: 1.5rem;
+}
+
+button:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+    color: white;
+}
+
+.score{
+    min-width: 30rem;
+    max-width: 30rem;
+    background-color: beige;
+    margin: 3rem auto;
+}
+
+.score-player{
+    display: inline-block;
+    font-size: 5rem;
+    padding: 1rem;
+    margin: 1rem;
+}
